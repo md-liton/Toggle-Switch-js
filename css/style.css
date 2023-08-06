@@ -1,0 +1,31 @@
+.main{
+    position: relative;
+    height: 400px;
+    width: 200px;
+    margin: 0 auto;
+    z-index: 1;
+}
+.one{
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    width: 100%;
+    
+}
+.two{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    filter: drop-shadow( -2px 4px 3px #777);
+    
+}
+.active{
+    z-index: -1;
+}
+button{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
